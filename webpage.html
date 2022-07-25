@@ -1,0 +1,119 @@
+<html>
+
+<head>
+    <title>My Page</title>
+    <link rel="stylesheet" href="webpagecss.css">
+    <style>
+        body{
+    background-image: url('githublogo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:1800px;
+    background-attachment: fixed;
+}
+h1.banner{
+    background-image: url('header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}
+.main{
+    background-color: palevioletred;
+    color: black;
+
+    
+}
+b{
+    
+    font-size:24px ;
+}
+li{
+    
+    font-size: medium;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+address{
+    font-weight: bolder;
+    color: rgb(172, 114, 37);
+    text-align: right;
+    background-image: url('bgimg.jpg');
+    background-size: 100%;
+}
+
+pre{
+    color: rgb(17, 60, 46);
+    font-size: 55px;
+    text-align: left;
+    margin-right: 20px;
+}
+video{
+    margin-left: 35%;
+    width: 500px;
+    height: 400px;
+}
+span.tut{
+    margin-left: 38%;
+    color: rgb(201, 159, 159);
+    background-color: rgb(53, 13, 94);
+    font-weight:bolder ;
+    font-size: larger;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(53, 13, 94);
+}
+a:hover{
+    border: 3px dotted rgb(255, 255, 255);
+    border-radius: 10px;
+    color: white;
+}
+a:active{
+    color: red;
+}
+    </style>
+</head>
+
+<body>
+    <h1 class="banner">
+        <pre>
+
+        Welcome To My Page
+                </pre>
+        <!--to add banner on top -->
+    </h1>
+
+    <hr>
+    <div class="main">
+        <p><b> This is the beginning of our web projects. We are pushing our code in our github repository through
+                gitbash. We are learning about web development development, IDE and languages used and its scope.
+                Along with it we are learning about Github and its use.</b></p>
+        <b><u>Command to push file in git repository.</u></b>
+        <ul><b><code>
+                <li>git init</li>
+                <li>git config user.name "name"</li>
+                <li>git config user.email "email"</li>
+                <li>git remote add origin "link_of_your_repository"</li>
+                <li>git add "file-name.with .exe"</li>
+                <li>git add . {To select all file}</li>
+                <li>git commit -m "message" </li>
+                <li>git push origin master</li>
+                <li>(After edit)git push -u origin master </li>
+            </code></b></ul>
+    </div>
+
+    
+
+    
+    <address>
+        Author@diya <br>
+        <a href="https://github.com/diyagajurel">My Github</a><br>
+        <a href="mailto:diya@gmail.com">Email me Here</a><br>
+    </address>
+</body>
+
+</html>
