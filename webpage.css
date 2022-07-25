@@ -1,0 +1,71 @@
+body{
+    background-image: url('githublogo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:1800px;
+    background-attachment: fixed;
+}
+h1.banner{
+    background-image: url('header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}
+.main{
+    background-color: palevioletred;
+    color: black;
+
+    
+}
+b{
+    
+    font-size:24px ;
+}
+li{
+    
+    font-size: medium;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+address{
+    font-weight: bolder;
+    color: rgb(172, 114, 37);
+    text-align: right;
+    background-image: url('bgimg.jpg');
+    background-size: 100%;
+}
+
+pre{
+    color: rgb(17, 60, 46);
+    font-size: 55px;
+    text-align: left;
+    margin-right: 20px;
+}
+video{
+    margin-left: 35%;
+    width: 500px;
+    height: 400px;
+}
+span.tut{
+    margin-left: 38%;
+    color: rgb(201, 159, 159);
+    background-color: rgb(53, 13, 94);
+    font-weight:bolder ;
+    font-size: larger;
+}
+a:link{
+    text-decoration: none;
+    color: rgb(53, 13, 94);
+}
+a:hover{
+    border: 3px dotted rgb(255, 255, 255);
+    border-radius: 10px;
+    color: white;
+}
+a:active{
+    color: red;
+}
